@@ -25,5 +25,5 @@ And('user clicks on login button', () => {
 });
 
 Then('user verifies login', () => {
-  cy.url().should('eq', 'https://www.paylinn.com/user')
+  cy.url().should('eq', 'https://www.paylinn.com/user');
 });
