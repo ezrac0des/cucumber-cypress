@@ -15,5 +15,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "run": "^1.4.0"
   }
 }

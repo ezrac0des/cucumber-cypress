@@ -20,7 +20,7 @@ And('user enters password', () => {
   ).type('user');
 });
 
-And('user clicks on login button', () => {
+And('user clicks on submit button', () => {
   cy.get('.MuiButtonBase-root').click();
 });
 
